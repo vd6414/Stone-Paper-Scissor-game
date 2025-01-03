@@ -15,7 +15,7 @@ const genCompChoice = () => {
 
 const drawGame = () => {
     
-    msg.innerText = "Parat khel laudya";
+    msg.innerText = "DRAW, Try Again :)";
 };
 
 const showWinner = (userWin, userChoice, compChoice) => {
@@ -29,7 +29,7 @@ const showWinner = (userWin, userChoice, compChoice) => {
         compScore++;
         compScorePara.innerText = compScore;
         
-        msg.innerText = `Haglasss ${compChoice} beats ${userChoice}`;
+        msg.innerText = `loss ${compChoice} beats ${userChoice}`;
         msg.style.backgroundColor = "#c68805";
     }
 };
